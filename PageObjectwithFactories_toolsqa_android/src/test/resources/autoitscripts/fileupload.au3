@@ -1,0 +1,8 @@
+WinWait("Open","",10)
+ControlFocus("Open","","Edit1")
+ControlSetText("Open","","Edit1","C:\1INTR.MP4")
+ControlClick("Open","","Button1")
+WinWait("File Upload","",10)
+ControlFocus("File Upload","","Edit1")
+ControlSetText("File Upload","","Edit1","C:\1INTR.MP4")
+ControlClick("File Upload","","Button1")

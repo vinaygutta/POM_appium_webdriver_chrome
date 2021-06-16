@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Elements Tests">
+
+	<listeners>
+
+		<listener class-name="com.toolsqa.listeners.CustomListeners" />
+
+		<listener class-name="com.toolsqa.errorcollectors.TestListenerAdapter" />
+		<!-- <listener class-name="org.uncommons.reportng.HTMLReporter" /> -->
+		<!-- <listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> -->
+
+	</listeners>
+
+	
+	<test name="All Elements Tests">
+		<classes>
+			<class name="com.toolsqa.testcases.AllElementsTests" />
+		</classes>
+	</test> 
+	
+	
+	 
+	 
+
+
+</suite> <!-- Suite -->
+

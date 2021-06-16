@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Interactions Tests">
+
+	<listeners>
+
+		<listener class-name="com.toolsqa.listeners.CustomListeners" />
+
+		<listener class-name="com.toolsqa.errorcollectors.TestListenerAdapter" />
+		
+
+	</listeners>
+
+
+	
+	 
+
+	 <test name="All Interactions Tests">
+		<classes>
+			<class name="com.toolsqa.testcases.AllInteractionsTests" />
+		</classes>
+	</test> 
+	
+
+
+</suite> <!-- Suite -->
+
